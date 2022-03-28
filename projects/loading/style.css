@@ -1,0 +1,107 @@
+.box1{
+    width: 10rem;
+    height: 10rem;
+    background: cyan;
+  
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+  
+  
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.box2{
+    width: 10rem;
+    height: 10rem;
+    background: cyan;
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-40%, -40%);
+
+    
+    
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  
+}
+
+.box3{
+    width: 10rem;
+    height: 10rem;
+    background: cyan;
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-60%, -60%);
+
+    display: grid;
+    place-items: center;
+    font-family: Arial;
+    font-size: 2rem;
+    
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes spin {
+    to {
+      transform: translate(-50%, -50%) rotate(1080deg);
+    }
+  }
+
+
+  .loading-circle{
+    width: 70vw;
+    margin: 0 auto;
+    height: 70vw;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .circle{
+    width: 0;
+    height: 100%;
+    background: pink;
+    animation: load 7s forwards;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  @keyframes load {
+    
+    0% {
+      width: 0;
+      transform: translateY(0);
+      border-radius: 50%
+    }
+    
+    50% {
+      width: 100%;
+      transform: translateY(0);
+      border-radius: 50%
+    }
+    
+    
+    
+    100% {
+      width: 100%;
+      transform: translateY(100vh);
+      border-radius: 50%
+    }
+    
+  }
+  
+  

@@ -1,0 +1,70 @@
+body {
+    background-image: url("gif/mereheartblinkbackground4201.gif");
+    
+}
+
+h1{
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    padding: 6em;
+    font-size: 40px;
+    
+}
+
+.para{
+    color: white;
+    font-family: Georgia;
+    text-align: center;
+    
+}
+.gaming{
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    max-width: 120px;
+    
+    
+}
+
+.star {
+    position:absolute;
+    left: 85px;
+    top:40px;
+    width: 350px;
+
+}
+
+.blue-background{
+    position: absolute;
+    top: 400px;
+    right: 200px;
+}
+
+.cat{
+    position: absolute;
+    max-width: 160px;
+    top: 430px;
+    right: 230px;
+}
+
+.garf{
+    position: absolute;
+    max-width: 300px;
+    bottom: 200px;
+    left: 400px;
+}
+
+.nyan{
+    position:absolute;
+    top: 40px;
+    right: 500px;
+}
+.flamez{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+   
+
+
